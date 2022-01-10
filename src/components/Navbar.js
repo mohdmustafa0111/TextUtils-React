@@ -6,7 +6,7 @@ function Navbar(props) {
     return (
         <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="/">
                     {props.title}
                 </a>
                 <button
@@ -26,7 +26,7 @@ function Navbar(props) {
                             {/* <Link className="nav-link active" aria-current="page" to="/">
                                 Home
                             </Link> */}
-                            <a className="nav-link active" aria-current="page" href="#">
+                            <a className="nav-link active" aria-current="page" href="/">
                                 Home
                             </a>
                         </li>
